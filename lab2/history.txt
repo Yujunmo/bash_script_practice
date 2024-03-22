@@ -1,0 +1,472 @@
+  297  rm logt.txt 
+  301  rm *
+  303  ./prac3.sh 
+  304  if [ -e "test
+  305  if [ -e "test" ]; then  echo "hi"; else  echo "ho"; fi
+  309  ./prac3.sh 
+  313  cat log.txt 
+  317  man exit
+  318  q
+  322  clear cat /etc/passwd
+  323  cat /etc/passwd
+  327  awk 
+  329  head -2
+  330  head -10 /etc/passwd
+  332  tail -3 /etc/passwd
+  347  claer
+  351  cat report-apache-user.txt 
+  352  echo $(ls re.*)
+  353  ls re.*
+  354  ls re
+  355  ls r*
+  356  echo $(ls re*)
+  357  a=$(ls re*)
+  358  echo $a
+  359  for a in ${a};do echo ${a}; done
+  360  file report-apache-user.txt 
+  361  awk -F: '{ print 1 }'
+  362  awk -F: '{ print 1 }' /etc/passwd
+  363  awk -F: '{ print 2 }' /etc/passwd
+  364  awk -F: '{ print S1 }' /etc/passwd
+  365  awk -F: '{ print S2 }' /etc/passwd
+  367  awk -f: '{print $1 $6 $7}' /etc/passwd
+  368  awk -F: '{print $1 $6 $7}' /etc/passwd
+  369  awk -F: '{print $1 }' /etc/passwd
+  370  awk -F: '{print $1}' /etc/passwd
+  371  grep -Ri -e error -e warning .
+  372  grep -Ri -e error -e warning 
+  373  grep -Ri -e error -e warning >
+  374  grep -Ri -e error -e warning .
+  375  input
+  376  read hi
+  377  echo $hi
+  378  echo $hI
+  380  ls -ld /usr/doc /usr/docs
+  381  ls -ld /usr/share/doc/ /usr/share/docs
+  382  ls -ld /usr/share/doc/ /usr/share/docs > log.txt
+  384  cat log.txt 
+  387  cat log.txt 
+  388  ls -ld /usr/share/doc/ /usr/share/docs > log.txt
+  389  cat log.txt 
+  390  ls -ld /usr/share/doc/ /usr/share/docs
+  391  ls -ld /usr/share/doc/ /usr/share/docs 2 > log.txt
+  392  ls -ld /usr/share/doc/ /usr/share/docs 2> log.txt
+  393  cat log.txt 
+  394  ls -ld /usr/share/doc/ /usr/share/docs 1> log.txt
+  395  ls -ld /usr/share/doc/ /usr/share/docs 2> log.txt
+  396  cat log.txt 
+  399  ls -ld /usr/share/doc 1> log.txt
+  401  cat log.txt 
+  402  ls -ld /usr/share/doc /eta 1> log_stdout.txt 2>log_stderr.txt
+  404  cat log_stdout.txt 
+  405  cat log_stderr.txt 
+  406  ls *txt
+  407  rm *txt
+  412  rm * -y
+  413  rm * --y
+  418  find / -ytpe f -name httpd
+  419  find / - f -name httpd
+  421  find / -type f -name httpd
+  422  find / -type f -name httpd 2>log.txt
+  424  cat log.txt 
+  425  find / -type f -name httpxd 2>log.txt
+  426  cat log.txt 
+  427  find / -type f -name httpd 1>log.txt
+  429  cat log.txt 
+  432  rpm -ql tee
+  434  rpm -ql tee
+  435  ron -ql tlog
+  436  dnf install tee
+  437  ls | grep httpd
+  438  ls | gpre txt
+  440  ls | grep pra
+  441  cat hi
+  442  echo hi | tee hi1.txt hi2.txt
+  444  cat hi1.txt 
+  445  cat hi2.txt 
+  447  tr a-z A-Z < hi1.txt 
+  450  cat hi1.txt 
+  451  str=$(cat hi1.txt)
+  452  echo $str
+  453  ${str^^}
+  454  echo ${str^^}
+  455  tr a-z A-Z < hi1.txt 
+  458  cat /etc/passwd
+  459  cat /etc/passwd | grep root
+  461  find / -type f -print *ctl
+  462  find / -type f *ctl
+  463  find / -type -name  *ctl
+  464  find / -type -name *ctl
+  465  find / -type --name *ctl
+  466  find / -type f -print -name *ctl
+  467  find / -type f -print -name *ctl$
+  468  find / -type f -print -name *ctl | head -3
+  469  find /sbin /bin -type f -print -name *ctl | head -3
+  470  find /sbin /bin -type f -print -name *ctl 
+  471  find /sbin /bin -type f -name *ctl 
+  472  hostnamectl
+  474  hostnamectl
+  476  cat /etc/hostname
+  477  echo $(hostname)
+  478  hostname
+  479  whereis hostname
+  480  cat /usr/bin/hostname
+  482  cat /usrhare/docs/less
+  483  cat /us/share/docs/less
+  484  cat /usr/share/docs/less
+  485  cat /usr/share/doc/less
+  488  cat INSTALL 
+  501  ls /usr/share/doc
+  506  sh prac4.sh 
+  508  rm *txt
+  511  ./prac4
+  512  sh prac4.sh 
+  514  ./ result_doc.txt 
+  515  echo result_doc.txt 
+  516  cat result_doc.txt 
+  521  ./prac4
+  523  cat result_doc.txt 
+  526  chmod u+x prac4.sh 
+  528  ./prac
+  529  ./prac4.sh 
+  531  cat /dev/null 
+  539  CLEAR
+  543  ifconfig
+  544  ip 
+  545  clewar
+  547  ifconfig
+  548  ipconfig
+  549  histroy | grep ip
+  551  ip a s eth0
+  552  dnf install mutt -y
+  553  dnf install s-nail postifx
+  561  touch hi.txt
+  564  mail -s "hi" -a hi.txt root@localhost
+  565  dnf install mail
+  566  mutt
+  571  exit
+  574  cat test-main.sh 
+  579  ll
+  580  cat *
+  582  grep ^function *
+  583  vi passwd.sh 
+  584  vi ../test-main.sh 
+  587  vi passwd.sh 
+  588  if passwd.sh 
+  590  vi passwd.sh 
+  591  cat ~/
+  592  ls ~/
+  593  cat /etc/passwd
+  601  vi passwd.sh 
+  603  cat passwd.sh 
+  608  ./test-main.sh change user test2 tesakjdf;ajfk;l
+  614  vi passwd.sh 
+  616  ./test-main.sh change user test2 tesakjdf;ajfk;l
+  618  ./test-main.sh change user test2 tesakjdf;ajfk;l
+  619  vi include/passwd.sh 
+  621  sh - x./test-main.sh change user test2 tesakjdf;ajfk;l
+  622  sh - x ./test-main.sh change user test2 tesakjdf;ajfk;l
+  624  sh - x test-main.sh change user test2 tesakjdf;ajfk;l
+  625  sh -x test-main.sh change user test2 tesakjdf;ajfk;l
+  626  vi 
+  629  vi test-main.sh 
+  632  cat passwd.sh 
+  633  clera
+  636  vi passwd.sh 
+  640  ./test-main.sh change user test2 tesakjdf;ajfk;l
+  641  ./test-main.sh change user test2 tesakjd
+  642  vi include/passwd.sh 
+  643  ./test-main.sh change user test2 tesakjd
+  644  vi include/passwd.sh 
+  645  ./test-main.sh change user test2 tesakjd
+  647  vi include/passwd.sh 
+  648  ./test-main.sh change user test2 tesakjd
+  649  vi include/passwd.sh 
+  650  ./test-main.sh change user test2 tesakjd
+  651  vi ./include/passwd.sh 
+  655  echo ${user_list}
+  657  vi ./include/passwd.sh 
+  659  ./test-main.sh change user test2 tesakjd
+  660  vi ./include/passwd.sh 
+  661  ./test-main.sh change user test2 tesakjd
+  662  q!
+  664  ./test-main.sh change user test2 tesakjd
+  665  vi ./include/passwd.sh 
+  667  ./test-main.sh change user test2 tesakjd
+  668  ./test-main.sh change user test1 junmojunmo
+  671  ip a s eth0
+  673  vi test-main.sh 
+  676  cat *
+  679  ls | cat
+  686  touch service.sh
+  687  vi service.sh 
+  689  cat service.sh 
+  690  vi service.sh 
+  694  chmod u+x service.sh 
+  703  cat service.sh 
+  704  ks
+  708  vi test-main.sh 
+  711  ./test-main.sh operate start httpd
+  712  ./test-main.sh operate start http
+  713  cat test-main.sh 
+  714  vi test-main.sh 
+  715  source include/*
+  716  vi test-main.sh 
+  717  ./test-main.sh operate start http
+  718  sh -x test-main.sh operate start http
+  719  vi test-main.sh 
+  720  sh -x test-main.sh operate service start http
+  721  test-main.sh operate service start http
+  722  ./test-main.sh operate service start http
+  726  vi service.sh 
+  732  ./test-main.sh operate service start http
+  733  vi test-main.sh 
+  734  ./test-main.sh operate service start http
+  740  vi test-main.sh 
+  743  ./test-main.sh 
+  744  ./test-main.sh operate service start http
+  745  vi test-main.sh 
+  746  ./test-main.sh operate service start http
+  747  ./test-main.sh operate service start httpd
+  752  cat test-main.sh 
+  754  vi test-main.sh 
+  759  cat test-main.sh 
+  762  cat test-main.sh 
+  763  vi test-main.sh 
+  766  cat test-main.sh 
+  769  vi ./test-main.sh 
+  770  cat ./test-main.sh 
+  771  vi test-main.sh 
+  778  cat test-main.sh 
+  779  cat test-main.sh | grep ope
+  782  vi test-main.sh 
+  785  cat test-main.sh 
+  786  q!
+  789  cp test-main.sh test-main2.sh
+  790  cat test-main2.sh 
+  791  vi test-main2.sh 
+  793  cate test-main2.sh 
+  794  cat test-main2.sh 
+  796  gedit
+  799  rm test-main2.sh 
+  802  vi test-main.sh 
+  803  cat test-main.sh 
+  804  vi test-main.sh 
+  806  vi test-main.sh 
+  807  cat test-main.sh 
+  808  vi test-main.sh 
+  811  journalctl
+  812  journalctl | tail -10
+  814  mail -s root@localhost
+  815  dnf install mail
+  816  mail -s root@localhost
+  817  mail
+  818  dnf install mailx
+  819  dnf install sendmail
+  822  mail -s root@localhost
+  823  sendmail
+  824  sendmail root@localhost
+  826  clar
+  827  mail
+  829  cat /etc/os-release 
+  831  dnf install postfix
+  833  mail -s root@localhost 
+  835  mail -s root@localhost mail
+  836  mail
+  837  whereis mail
+  838  systemctl status postfix
+  839  systemctl start postfix
+  840  systemctl status postfix
+  842  mail
+  843  systemctl enable --now postfix
+  844  systemctl restart postfix
+  845  mail
+  848  mail
+  849  sendmail
+  850  sendmail root@localhost
+  854  whereis sendmail
+  855  whereis mail
+  861  cat ma
+  862  cat mail
+  866  l
+  871  dnf install mutt -y
+  873  mail -s root@localhost
+  876  dnf install mutt -y
+  877  systemctl enable --now postfix
+  878  mail -s "HI" root@localhost
+  879  exit
+  884  blkid
+  885  x=1
+  886  test ${x} -eq 1
+  887  echo $?
+  888  test ${x} -eq 2
+  889  echo $?
+  890  test aaa=bbb
+  891  echo $?
+  892  yourshell=test
+  893  test ${yourshell}=${SHELL}
+  894  echo $?
+  895  echo ${yourshell}
+  896  echo ${SHELL}
+  897  man test
+  898  if [[ ${SHELL} == ${yourshell} ]]; then echo HI; else echo BYE; fi
+  900  test ${yourshell} = ${SHELL}
+  901  echo $?
+  902  if [[ ${SHELL}==${yourshell} ]]; then echo HI; else echo BYE; fi
+  903  whereis csh
+  904  whereis bash
+  906  test "/bin/csh" == ${SHELL}
+  907  echo $?
+  908  test "/bin/bash" == ${SHELL} && echo "HI"
+  909  test "/bin/csh" == ${SHELL} && echo "HI"
+  914  ip as eth0
+  915  ip a s eth0
+  925  cat /etc/passwd
+  930  chmod u+x test-main.sh 
+  932  cat test-main.sh 
+  937  chomod u+x *
+  938  ll
+  939  chmod u+x (
+  940  chmod u+x *
+  941  ll
+  944  ./test-main.sh 
+  945  ./test-main.sh create user test1 test1test1
+  946  cat /etc/passwd | grep test
+  947  clera
+  949  echo helloworld | passwd --stdin test
+  950  echo helloworld | passwd --stdin test1
+  954  touch passwd.sh
+  955  vi passwd.sh 
+  957  mv passwd.sh include/
+  962  vi passwd.sh 
+  964  vi passwd.sh 
+  965  passwd test1
+  966  cat /etc/shadow
+  969  chmod u+x passwd.sh 
+  970  vi passwd.sh 
+  975  vi test-main.sh 
+  982  vi test-main.sh 
+  983  cat include/passwd.sh 
+  986  vi test-main.sh 
+  988  cat ./include/passwd.sh 
+  989  clearl
+  992  vi test-main.sh 
+  994  ./test-main.sh change user test1 junmo
+  995  vi test-main.sh 
+  996  ./test-main.sh change user test1 junmo
+  997  su test1
+  998  exit
+ 1000  mail
+ 1003  mail
+ 1004  whereis mail
+ 1007  which mail
+ 1012  podmain pull quay.io/wildfly/wildfly
+ 1013  podman pull quay.io/wildfly/wildfly
+ 1014  dnf install podman
+ 1015  podman
+ 1017  podman pull quay.io/wildfly/wildfly
+ 1028  touch container.sh
+ 1029  chmod u+x container.sh 
+ 1034  vi test-main.sh 
+ 1037  cat test-main.sh 
+ 1038  c,ear
+ 1044  vi container.sh 
+ 1047  vi container.sh 
+ 1054  podman images
+ 1055  podman run -d --rm --name wildfly -p 8080:8080 -p 9990:9990 -it quay.io/wildfly/wildfly /opt/jboss/wildfly/bin/standalone,sh -b 0.0.0.0 -bmanagement 0.0.0.0
+ 1056  podman ps
+ 1057* podman run -d --rm --name wildfly -p 8080:8080 -p 9990:9990 -it quay.io/wildfly/wildfly /opt/jboss/wildfly/bin/standalone,sh -b 0.0.0.0 -bmanagement 0.0.0.
+ 1058  podman ps
+ 1059  podman run -d --rm --name wildfly -p 8080:8080 -p 9990:9990 -it quay.io/wildfly/wildfly /opt/jboss/wildfly/bin/standalone,sh -b 0.0.0.0 -bmanagement 0.0.0.0
+ 1060  ip a s etho0
+ 1061  ip a s eth8
+ 1062  ip a s eth0
+ 1065  podman run -d --rm --name wildfly -p 8080:8080 -p 9990:9990 -it quay.io/wildfly/wildfly /opt/jboss/wildfly/bin/standalone,sh -b 0.0.0.0 -bmanagement 0.0.0.0
+ 1066  podman run -d --rm --name wildfly -p 8080:8080 -p 9990:9990 -it quay.io/wildfly/wildfly /opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0
+ 1067  podman ps
+ 1068  ps -ef | grep wild
+ 1069  ps -ef | grep 8080
+ 1071  podman ps
+ 1078  vi con
+ 1080  vi container.sh 
+ 1083  podman images
+ 1084  vi container.sh 
+ 1085  podman images --noheading
+ 1086  podman images --noheading | grep httpd
+ 1087  podman images --noheading | grep wildfly
+ 1088  podman images --noheading | grep wildfly | wc -l
+ 1090  vi container.sh  
+ 1092  vi container.sh 
+ 1095  vi container.sh 
+ 1096  podman wildfly
+ 1098  podman ps
+ 1099  podman wild
+ 1100  podman wildfly
+ 1104  vi container.sh 
+ 1111  mkdir lab3
+ 1117  touch main.py
+ 1119  pip install fastapi
+ 1120  dnf install pip
+ 1122  pip install fastapi
+ 1125  vi main.py 
+ 1128  pip install uvicorn
+ 1130  uvicorn main:app
+ 1133  cat main.py 
+ 1134  uvicorn main:home
+ 1135  pip install fastapi
+ 1137  vi main.py 
+ 1140  uvicorn main:home
+ 1141  vi main.py 
+ 1143  uvicorn main:home
+ 1153  ks
+ 1157  podman stop --all
+ 1159  podman ps
+ 1163  vi container.sh 
+ 1166  cat container.sh 
+ 1167  vi container.sh 
+ 1169  vi container.sh 
+ 1174  vi test-main.sh 
+ 1180  vi container.sh 
+ 1184  ./test-main.sh create container quay.io
+ 1187  vi test-main.sh 
+ 1190  vi include/container.sh 
+ 1192  ./test-main.sh create container quay.io.wildfly/wildfly wildfly
+ 1193  sh -x ./test-main.sh create container quay.io.wildfly/wildfly wildfly
+ 1194  vi include/container.sh 
+ 1196  sh -x ./test-main.sh create container quay.io.wildfly/wildfly wildfly
+ 1197  vi include/container.sh 
+ 1198  podman ps
+ 1199  podman run -d --rm --name wildfly -p 8080:8080 -p 9990:9990 -it 'quay.io/wildfly/wildfly /opt/jboss/wildfly/bin/standalone.sh' -b 0.0.0.0 -bmanagement 0.0.0.0
+ 1200  podman run -d --rm --name wildfly -p 8080:8080 -p 9990:9990 -it quay.io/wildfly/wildfly /opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0
+ 1201  vi include/container.sh 
+ 1203  sh -x ./test-main.sh create container quay.io.wildfly/wildfly wildfly
+ 1204  vi include/container.sh 
+ 1207  podman ps
+ 1208  podman stop *
+ 1209  podman stop 15669e5e31c3
+ 1210  podman ps
+ 1211  sh -x ./test-main.sh create container quay.io.wildfly/wildfly wildfly
+ 1214  ./test-main.sh create container quay.io.wildfly/wildfly wildfly
+ 1216  podman ps
+ 1217  podman stop cbcf3bbec1f2
+ 1220  vi test-main.sh 
+ 1223  vi test-main.sh 
+ 1228  vi container.sh 
+ 1229  podman ps
+ 1230  vi container.sh 
+ 1235  cat test-main.sh 
+ 1236  vi test-main.sh 
+ 1237  ./test-main.sh stop wildfly
+ 1238  ./test-main.sh stop container wildfly
+ 1239  cat test-main.sh 
+ 1240  vi test-main.sh 
+ 1241  ./test-main.sh create container quay.io.wildfly/wildfly wildfly
+ 1242  ./test-main.sh stop container wildfly
+ 1244  podman ps
+ 1245  ./test-main.sh create container quay.io.wildfly/wildfly wildfly
+ 1254  ip a s eth0
+ 1255* hios
+ 1256  clea
+ 1259  cat test-main.sh 
+ 1271* 
+ 1274   
