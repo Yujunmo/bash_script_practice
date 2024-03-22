@@ -2,6 +2,7 @@
 
 source include/user.sh
 source include/firewalld.sh
+source include/passwd.sh
 
 case $1 in
 	add)
@@ -46,5 +47,14 @@ case $1 in
 			       ;;
 	        esac
 		;;
+	change)
+		case $2 in 
+			user)
+				echo "change password"
+				SetUserpasswd $3 $4
+				;;
+		esac
+		;;
+				
 	
 esac
